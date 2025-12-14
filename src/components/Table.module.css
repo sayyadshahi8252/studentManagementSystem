@@ -1,0 +1,20 @@
+table {
+  border-collapse: collapse;   
+  width: 100%;
+}
+table, th, td {
+  border: 2px solid #333;     
+}
+th, td {
+  padding: 10px;
+  text-align: start;
+}
+tr{
+    height: 40px;
+}
+th{
+    height: 30px;
+}
+.tablecontainer{
+    margin-top: 20px;
+}

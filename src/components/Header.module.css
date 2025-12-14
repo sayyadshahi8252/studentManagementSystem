@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerContainer{
+    width: 100vw;
+    height: 76px;
+    background-color: black;
+}
+h1{
+    color: white;
+    padding: 20px;
+}
