@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Search.module.css'
 import Button from './Button.jsx'
 
+
 const Search = ({ searchdata, setsearchdata, allStudentData, setStudentdata }) => {
   function handlesearch(e) {
     const target = e.target.value;

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './AllButtons.module.css'
-import Button from './Button'
+import Button from './Button.jsx'
 
 const AllButtons = ({ buttons ,onButtonClick}) => {
     return (

@@ -1,20 +1,46 @@
 table {
-  border-collapse: collapse;   
+  border-collapse: collapse;
   width: 100%;
 }
+
 table, th, td {
-  border: 2px solid #333;     
+  border: 2px solid #333;
 }
+
 th, td {
   padding: 10px;
-  text-align: start;
+  text-align: left;
 }
-tr{
-    height: 40px;
+
+tr {
+  height: 40px;
 }
-th{
-    height: 30px;
+
+th {
+  height: 30px;
 }
-.tablecontainer{
-    margin-top: 20px;
+
+.tablecontainer {
+  margin-top: 20px;
+  width: 100%;
+  overflow-x: auto; 
+}
+
+@media (max-width: 768px) {
+  th, td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  tr {
+    height: auto;
+  }
+}
+
+
+@media (max-width: 480px) {
+  th, td {
+    font-size: 12px;
+    padding: 6px;
+  }
 }
